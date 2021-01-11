@@ -44,11 +44,6 @@
             <font>
                 <Font name="System Bold" size="12.0" />
             </font></Button>
-        <ImageView fitHeight="109.0" fitWidth="105.0" layoutX="55.0" layoutY="33.0" pickOnBounds="true" preserveRatio="true">
-            <image>
-                <Image url="@154-1541092_small-zbgg-edit-edit-small-icon-png-transparent.png" />
-            </image>
-        </ImageView>
       <Button layoutX="31.0" layoutY="297.0" mnemonicParsing="false" onAction="#viewAll" prefHeight="25.0" prefWidth="130.0" style="-fx-background-color: F88C75;" text="View All" textFill="WHITE">
          <font>
             <Font name="System Bold" size="12.0" />
@@ -59,5 +54,10 @@
             <Font name="System Bold" size="12.0" />
          </font>
       </Button>
+      <ImageView fitHeight="107.0" fitWidth="155.0" layoutX="44.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../images/noun_Edit%20Product_2675933.png" />
+         </image>
+      </ImageView>
     </children>
 </AnchorPane>

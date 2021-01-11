@@ -26,7 +26,7 @@ public class SalesRepDB {
         }
         else {
             int id=salesRep.getId();
-            String updateStatus= "UPDATE sales_representative SET firstName= '"+salesRep.getFirstName()+"', secondName='"+salesRep.getLastNAme()+"', username = '"+salesRep.getUsername()+"', password = '"+salesRep.getPassword()+"', product_quantity = '"+"', status ='" +1+"' WHERE user_id="+id;
+            String updateStatus= "UPDATE sales_representative SET firstName= '"+salesRep.getFirstName()+"', secondName='"+salesRep.getLastNAme()+"', username = '"+salesRep.getUsername()+"', password = '"+salesRep.getPassword()+"', status ='" +1+"' WHERE user_id="+id;
             Statement statement=connectDB.createStatement();
             statement.executeUpdate(updateStatus);
         }
@@ -45,7 +45,6 @@ public class SalesRepDB {
                     salesRep.setLastNAme(rs.getString(3));
                     salesRep.setUsername(rs.getString(4));
                     salesRep.setPassword(rs.getString(5));
-                    salesRep.setStatus(1);
                     return salesRep;
                 } else {
                     return null;

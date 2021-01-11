@@ -25,6 +25,11 @@
                         <Font name="System Bold" size="18.0" />
                     </font>
                 </Label>
+            <ImageView fitHeight="85.0" fitWidth="98.0" layoutX="23.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/noun_Admin%20panel_1657149.png" />
+               </image>
+            </ImageView>
             </children>
         </AnchorPane>
         <Button alignment="CENTER" layoutX="32.0" layoutY="115.0" mnemonicParsing="false" onAction="#addSP" prefHeight="38.0" prefWidth="231.0" style="-fx-background-color: F88C75;" text="Add A Sales Representative" textFill="WHITE">

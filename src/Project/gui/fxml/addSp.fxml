@@ -11,7 +11,7 @@
 
 <AnchorPane prefHeight="577.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Project.gui.AddSpController">
     <children>
-        <AnchorPane prefHeight="92.0" prefWidth="600.0" style="-fx-background-color: F88C75;">
+        <AnchorPane prefHeight="142.0" prefWidth="600.0" style="-fx-background-color: F88C75;">
             <children>
                 <Label alignment="CENTER" layoutX="161.0" layoutY="34.0" prefHeight="48.0" prefWidth="279.0" text="Add a Sales Representative:" textFill="WHITE">
                     <font>
@@ -21,6 +21,11 @@
             <ImageView fitHeight="104.0" fitWidth="122.0" layoutX="6.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../images/adduser.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="122.0" fitWidth="144.0" layoutX="14.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/noun_Add%20User_2235846.png" />
                </image>
             </ImageView>
             </children>

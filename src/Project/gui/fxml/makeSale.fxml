@@ -6,6 +6,8 @@
 <?import javafx.scene.control.TableColumn?>
 <?import javafx.scene.control.TableView?>
 <?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
@@ -41,5 +43,10 @@
       <ComboBox fx:id="comboUserId" layoutX="28.0" layoutY="190.0" prefHeight="25.0" prefWidth="157.0" />
       <ComboBox fx:id="comboProductId" layoutX="28.0" layoutY="253.0" prefHeight="25.0" prefWidth="157.0" />
       <TextField fx:id="fieldQuantity" layoutX="32.0" layoutY="321.0" />
+      <ImageView fitHeight="129.0" fitWidth="167.0" layoutX="21.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../images/noun_sell_2733776.png" />
+         </image>
+      </ImageView>
     </children>
 </AnchorPane>

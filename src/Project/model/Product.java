@@ -9,14 +9,6 @@ public class Product {
     String productQuantity;
     int status;
 
-    /*public Product(String id, String productName, String productType, String productBrand, String productPrice, String productQuantity) {
-        this.id = id;
-        this.productName = productName;
-        this.productType = productType;
-        this.productBrand = productBrand;
-        this.productPrice = productPrice;
-        this.productQuantity = productQuantity;
-    }*/
 
     public int getStatus() {
         return status;

@@ -29,7 +29,7 @@ public class AdminMenuController {
             Parent root = FXMLLoader.load(url);
             Stage addSPStage=new Stage();
             addSPStage.setTitle("Admin Menu");
-            addSPStage.setScene(new Scene(root, 564, 511));
+            addSPStage.setScene(new Scene(root, 564, 540));
             addSPStage.show();
 
         }catch (Exception e){
@@ -43,7 +43,7 @@ public class AdminMenuController {
             Parent root = FXMLLoader.load(url);
             Stage addSPStage=new Stage();
             addSPStage.setTitle("Admin Menu");
-            addSPStage.setScene(new Scene(root, 564, 511));
+            addSPStage.setScene(new Scene(root, 620, 411));
             addSPStage.show();
 
         }catch (Exception e){

@@ -10,7 +10,7 @@
 
 <AnchorPane prefHeight="577.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Project.gui.AddUserController">
     <children>
-        <AnchorPane prefHeight="92.0" prefWidth="600.0" style="-fx-background-color: F88C75;">
+        <AnchorPane prefHeight="125.0" prefWidth="600.0" style="-fx-background-color: F88C75;">
             <children>
                 <ImageView fitHeight="89.0" fitWidth="113.0" layoutX="54.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
                     <image>
@@ -22,6 +22,11 @@
                         <Font name="System Bold" size="18.0" />
                     </font>
                 </Label>
+            <ImageView fitHeight="136.0" fitWidth="146.0" layoutX="11.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/noun_Add%20User_2235846.png" />
+               </image>
+            </ImageView>
             </children>
         </AnchorPane>
         <Label layoutX="89.0" layoutY="171.0" text="First Name:">

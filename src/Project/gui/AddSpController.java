@@ -89,7 +89,9 @@ public class AddSpController {
                     messageLabel.setText("Sales representative already exists!");
                 }else{
                     status=true;
+                    salesRep.setStatus(1);
                     salesRepDB.addSalesRep(salesRep,status);
+                    messageLabel.setText("Sales representative added");
                 }
             }
 

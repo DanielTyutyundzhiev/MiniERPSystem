@@ -5,6 +5,8 @@
 <?import javafx.scene.control.TableColumn?>
 <?import javafx.scene.control.TableView?>
 <?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
@@ -35,5 +37,10 @@
             <Font name="System Bold" size="14.0" />
          </font>
       </Button>
+      <ImageView fitHeight="115.0" fitWidth="159.0" layoutX="27.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../images/noun_Delete%20User_318301.png" />
+         </image>
+      </ImageView>
     </children>
 </AnchorPane>
