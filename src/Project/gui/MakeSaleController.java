@@ -96,7 +96,7 @@ public class MakeSaleController implements Initializable {
         table.setItems(oblist);
         //-----------------------------------------------------------
 
-        ProductDB productDB = new ProductDB();
+        ProductDB productDB = new ProductDB();  
         ResultSet rs1 = null;
         List<Integer> listId=new ArrayList<>();
 
@@ -156,7 +156,7 @@ public class MakeSaleController implements Initializable {
         } catch (SQLException throwables) {
             throwables.printStackTrace();
         }
-        if(productQuantity-quantity==0){
+        if(productQuantity>quantity){
             deleteMessage.setText("Insufficient quantity");
         }else{
             finalPrice=Double.parseDouble(price)*productQuantity;
